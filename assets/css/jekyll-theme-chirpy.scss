@@ -13,17 +13,17 @@
 /* Dark mode variables available for editing */
 html[data-mode=dark] {
     --heading-color: #ae81ff;
-    --label-color: #4c45ff;
-    --site-title-color: #4c45ff;
+    --label-color: #664767;
+    --site-title-color: #664767;
     --site-subtitle-color: #868686;
     --sidebar-muted-color: #ae81ff;
-    --sidebar-active-color: #4c45ff;
+    --sidebar-active-color: #664767;
     --sidebar-btn-color: #ae81ff;
-    --avatar-border-color: rgb(206, 206, 206, 0.9);
+    --avatar-border-color: #664767;
     --search-border-color: #ae81ff;
-    --search-icon-color: #4c45ff;
-    --input-focus-border-color: #4c45ff;
-    --toc-highlight: #4c45ff;
+    --search-icon-color: #664767;
+    --input-focus-border-color: #664767;
+    --toc-highlight: #664767;
     --prompt-text-color: rgb(216, 212, 212, 0.75);
     --prompt-tip-bg: rgb(22, 60, 36, 0.64);
     --prompt-tip-icon-color: rgb(15, 164, 15, 0.81);
@@ -39,12 +39,12 @@ html[data-mode=dark] {
 
 /* Change text for tags page only to green */
 #search-results a, #search-hints .post-tag, a {
-    color: #4c45ff;
+    color: #d61b3a;
 }
 
 /* Change panel hover only text color to green and border hover to purple */
 .btn:hover {
-    color: #4c45ff;
+    color: #664767;
     background-color: #302e31;
     border-color: #ae81ff;
 }
@@ -52,7 +52,7 @@ html[data-mode=dark] {
 /* Change side panel only tag border to purple and text to green */
 .post-tag {
     border: 1px solid #ae81ff;
-    color: #4c45ff;
+    color: #664767;
 }
 
 /* Change tag hover color on side panel only to purple */
@@ -62,7 +62,7 @@ html[data-mode=dark] {
 
 /* Change link colors to green hover and purple underline across all pages */
 #page-category a:hover, #page-tag a:hover, .post-tags .post-tag:hover, .post-tail-wrapper .license-wrapper>a:hover, #search-results a:hover, #topbar #breadcrumb a:hover, .content a:not(.img-link):hover, .post-meta a:not([class]):hover, #access-lastmod a:hover, footer a:hover {
-    color: #4c45ff !important;
+    color: #664767 !important;
     border-bottom: 1px solid #ae81ff;
 }
 
